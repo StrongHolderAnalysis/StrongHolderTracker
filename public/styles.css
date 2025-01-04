@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  .container {
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
