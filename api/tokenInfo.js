@@ -12,7 +12,6 @@ export default async function handler(req, res) {
       const tokenAddress = new PublicKey(contractAddress);
       const tokenMint = await getMint(connection, tokenAddress);
 
-      // Obtener metadata de Metaplex
       const metadataPDA = await Metadata.getPDA(tokenAddress);
       const metadata = await Metadata.load(connection, metadataPDA);
 
